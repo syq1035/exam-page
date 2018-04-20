@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+        <script src="./jquery-3.2.1.js"></script>        
+        <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    </head>
+
+    <body>
+<!-- text -->
+<form>
+  <div class="row">
+    <div class="col-md-12">
+        <h1>统一建模语言理论测试 </h1>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-md-3">考试科目：统一建模语言</div>
+      <div class="col-md-3">时间：100分钟</div>
+      <div class="col-md-3">满分：100</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="input-group">
+          <span class="input-group-addon">班级</span>
+          <input type="text" class="form-control"id="class" placeholder="class">
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="input-group">
+          <span class="input-group-addon">学号</span>
+          <input type="text" class="form-control"id="num" placeholder="number">
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="input-group">
+          <span class="input-group-addon">姓名</span>
+          <input type="text" class="form-control"id="name" placeholder="name">
+      </div>
+    </div>
+  </div>
+  <!-- ...... -->
+  <div class="col-md-12">
+    <h2>一.填空题（每空5分，共20分）</h2>
+  </div>
+  <ol>
+    <div class="row" id="fillTest">
+      <div class="col-md-12">
+        <li>UML的中文全称是：</li>
+        <div class="col-md-2"><input type="text" class="form-control" id="fillTestOne" placeholder=" "></div>
+      </div>
+      <div class="col-md-12">
+        <li>对象最突出的特征是：</li>
+        <div class="col-md-2"><input type="text" class="form-control" id="fillTestTwo" placeholder=" "></div>
+        <div class="col-md-2"><input type="text" class="form-control" id="fillTestThree" placeholder=" "></div>
+        <div class="col-md-2"><input type="text" class="form-control" id="fillTestFour" placeholder=" "></div>
+      </div>
+    </div>
+  </ol>
+  <!-- ...... -->
+  <div class="col-md-12">
+    <h2>二.单选题（每空10分，共20分）</h2>
+    <ol>
+      <li>UML与软件工程的关系是：</li>
+      <div class="radio">
+          <label>
+            <input type="radio" name="radioTestOne" value="A">
+            (A) UML就是软件工程
+          </label>
+      </div>
+      <div class="radio">
+          <label>
+            <input type="radio" name="radioTestOne" value="B">
+            (B) UML参与到软件工程中软件开发过程的几个阶段 
+          </label>
+      </div>
+      <div class="radio">
+          <label>
+            <input type="radio" name="radioTestOne" value="C">
+            (C) UML与软件工程无关
+          </label>
+      </div>
+      <div class="radio">
+          <label>
+            <input type="radio" name="radioTestOne" value="D">
+            (D) UML是软件工程的一部分
+          </label>
+      </div>
+
+      <li>Java语言支持：</li>
+      <div class="radio">
+          <label>
+            <input type="radio" name="radioTestTwo" value="A">
+            (A) 单继承
+          </label>
+      </div>
+      <div class="radio">
+          <label>
+            <input type="radio" name="radioTestTwo" value="B">
+            (B) 多继承
+          </label>
+      </div>
+      <div class="radio">
+          <label>
+            <input type="radio" name="radioTestTwo" value="C">
+            (C) 单继承和多继承都支持
+          </label>
+      </div>
+      <div class="radio">
+          <label>
+            <input type="radio" name="radioTestTwo" value="D">
+            (D) 单继承和多继承都不支持
+          </label>
+      </div>
+    </ol>
+  </div>
+<!-- ...... -->
+  <div class="col-md-12">
+    <h2>三.多选题（每题10分，共20分）</h2>
+  </div>
+  <ol>
+    <li>用例的粒度分为以下哪三种：</li>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="checkboxTestOne" value="A">(A) 概述级
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="checkboxTestOne" value="B">(B) 需求级
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="checkboxTestOne" value="C">(C) 用户目标级
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" name="checkboxTestOne" value="D">(D) 子功能级
+      </label>
+    </div>
+
+    <li>类图由以下哪三部分组成：</li>
+    <div class="checkbox">
+        <label>
+          <input type="checkbox" name="checkboxTestTwo" value="A">(A) 名称(Name)
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+          <input type="checkbox" name="checkboxTestTwo" value="B">(B)  属性(Attribute)
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+          <input type="checkbox" name="checkboxTestTwo" value="C">(C) 操作(Operation)
+        </label>
+    </div>
+    <div class="checkbox">
+        <label>
+           <input type="checkbox" name="checkboxTestTwo" value="D">(D) 方法(Function)
+        </label>
+    </div>
+  </ol>
+  <!-- ...... -->
+  <div class="col-md-12">
+    <h2>四.判断题（每题10分，共20分）</h2>
+  </div>
+  <div class="checkbox">
+      <span>1.用例图只是用于和客户交流和沟通的,用于确定需求。</span>
+      <label>
+        <input type="radio" name="judgeTestOne" value="true"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+      </label>
+      <label>
+        <input type="radio" name="judgeTestOne" value="flase"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+      </label>
+  </div>
+  <div class="checkbox">
+      <span>2.在状态图中,终止状态在一个状态图中允许有任意多个。</span>
+      <label>
+        <input type="radio" name="judgeTestTwo" value="true"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+      </label>
+      <label>
+        <input type="radio" name="judgeTestTwo" value="flase"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+      </label>
+  </div>
+  <!-- ...... -->
+  <div class="col-md-12">
+    <h2>五.简答题（每题20分，共20分）</h2>
+  </div>
+  <div class="col-md-4">
+    <p>1. 简述什么是模型以及模型的表现形式？</p>
+    <textarea class="form-control" id="shortAnswerTest" rows="3"></textarea>
+  </div>
+  <!--...... -->
+  <div class="col-md-12">
+    <br/>
+    <!-- Button trigger modal -->
+    <button type="submit" class="btn btn-primary btn-lg" id="btnsubmit" data-toggle="modal" data-target="#myModal">
+      计算分数
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">考试结果</h4>
+          </div>
+          <div class="modal-body">
+            恭喜您，考了<span id="score">0</span>分，继续加油噢！
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</form>
+<script src="main.js"></script>
+    </body>
+</html>
